@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+  }
+  
+  div.page-container {
+    height: 100vh;
+    width: 100%;
+  }
+  .navbar-toggler{
+    padding: 0.25rem 0.25rem;
+  }
+  h2.landing-text-main {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+  .row.landing-main {
+    --bs-gutter-x:0;
+  }
+  
+  p.landing-sub-text {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  a.logo-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  
+  span.logo-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  
+  span.logo-dot {
+    color:rgb(252, 118, 35); font-size: inherit;
+  }
+  
+  div.header {
+    position: fixed;
+    top: 0;
+    height: 45px;
+    z-index: 100;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  div.landing-main {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);  
+  }
+  
+  
+  div.modal-elem-container {
+    display: flex;
+    width: 95%;
+    margin-bottom: 15px;
+  }
+  div.modal-elem-subcontainer {
+    width: 100%;
+  }
+  div.create-acc-name {
+    flex-basis: 505;
+  }
+  div.create-act-biodata {
+    flex-basis: 60%;
+  }
+  
+  button.modal-footer-button {
+    background: transparent;
+    border:none;
+    text-decoration:underline;
+  }
+  
+  div.navbar-collapse {
+    justify-content: end;
+  }
+  a.icon-items {
+    font-size: 0.8rem;
+    transition: 200ms;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+  }
+  a.icon-items:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  footer.my-footer {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 100%;
+    background-color: black;
+    padding: 0.3rem 0;
+  }
+  
+  div#side-bar {
+    position: absolute;
+    left:-200px;
+    width: 200px;
+    z-index: 1000;
+    transition: 400ms;
+  }
+  
+  div.mini-sidebar {
+    position:absolute;
+    width: 60px;
+    left:0;
+    z-index: 500;
+  }
+  i#collapse-icon {
+    font-size: 2rem;
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    div#side-bar {
+      position: absolute;
+      left:0px;
+      width: 200px;
+      z-index: 1000;
+    }
+    p.landing-sub-text {
+      font-size: 1rem;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
